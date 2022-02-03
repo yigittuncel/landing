@@ -1,0 +1,52 @@
+.container {
+  width: 900px;
+  margin: 80px auto;
+}
+
+@media (max-width: 920px) {
+  .container {
+    width: 700px;
+  }
+}
+
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+.banner {
+  background-image: linear-gradient(#eb01a51f, #d1363133), url("../../images/ethan-robertson-SYx3UCHZJlo-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.banner > .container {
+  color: white;
+}
+
+.footer {
+  background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);  padding: 50px 0;
+}
+
+.footer-links {
+  margin: 30px 0;
+}
+
+.footer p {
+  color: white;
+  font-size: lighter;
+}

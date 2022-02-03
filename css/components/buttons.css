@@ -1,0 +1,18 @@
+.btn {
+  display: inline-block;
+  color: white;
+  background-image: linear-gradient(#eb01a5, #d13531);
+  font-weight: bolder;
+  padding: 12px 24px;
+  border-radius: 20px;
+  opacity: .9;
+  transition: all, .3s;
+}
+
+.btn:hover {
+  opacity: 1;
+  transition: all, .3s;
+  background-image: linear-gradient(#eb01a5, #d13531);
+}
+
+/***************************************/
